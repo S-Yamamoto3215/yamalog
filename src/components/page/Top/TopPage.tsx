@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import { FC } from 'react'
-import { Top } from './Top'
+
 import { Layout } from '@/components/ui/Layout'
+
+import { Top } from './Top'
 
 export const TopPage: FC = () => {
   return (

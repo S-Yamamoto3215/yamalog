@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { FC } from 'react'
+
 import styles from './Top.module.css'
 
 export const Top: FC = () => {
