@@ -1572,6 +1572,11 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==
 
+destyle.css@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/destyle.css/-/destyle.css-3.0.2.tgz#80c331db91f02337040b62dc534ab4f3dc075546"
+  integrity sha512-OUzuAlridP01YP0seHxx+FgwhdXF07Ls9NxnJpR8EI7ADioswoR7VKkBd/s1hNw/G4ILasLSA0k2Kw1M57r1kA==
+
 detect-newline@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
