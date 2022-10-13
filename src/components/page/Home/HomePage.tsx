@@ -3,9 +3,9 @@ import { FC } from 'react'
 
 import { Layout } from '@/components/ui/Layout'
 
-import { Top } from './Top'
+import { Home } from './Home'
 
-export const TopPage: FC = () => {
+export const HomePage: FC = () => {
   return (
     <>
       <Head>
@@ -14,7 +14,7 @@ export const TopPage: FC = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Layout>
-        <Top />
+        <Home />
       </Layout>
     </>
   )
