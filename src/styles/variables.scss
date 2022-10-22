@@ -1,5 +1,13 @@
-$primary-color: #ff66ff;
+// color variables
+$pure-black: #000000;
+$my-black: #34423c;
+$white: #ffffff;
+$pure-white: #f9f9f9;
+$gray: #cfd4d2;
+$dark-gray: #acb5b1;
+$light-gray: #dee1e0;
 
-:export {
-  primaryColor: $primary-color;
-}
+$primary-color: #196840;
+$secondary-color: #fbc95c;
+$success-color: #439cfe;
+$danger-color: #d23a01;
