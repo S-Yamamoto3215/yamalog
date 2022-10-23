@@ -11,3 +11,16 @@ $primary-color: #196840;
 $secondary-color: #fbc95c;
 $success-color: #439cfe;
 $danger-color: #d23a01;
+
+// breakpoint mixin
+$breakpoint: (
+  sp: 'screen and (max-width: 767px)',
+  tab: 'screen and (min-width: 768px)',
+  pc: 'screen and (min-width: 992px)',
+);
+
+@mixin mq($bp) {
+  @media #{map-get($breakpoint, $bp)} {
+    @content;
+  }
+}
