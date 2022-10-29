@@ -1,0 +1,16 @@
+@import '@/styles/variables.scss';
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: auto;
+  background-color: $my-white;
+  border: 1px solid $light-gray;
+}
+
+.copy {
+  font-size: map-get($font-size, xs);
+  color: $my-black;
+}
