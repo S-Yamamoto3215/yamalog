@@ -1,1 +1,21 @@
 @import '@/styles/variables.scss';
+
+.header {
+  background-color: $primary-color;
+  color: $my-white;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_nav_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.header_nav_item + .header_nav_item {
+  margin-left: 1rem;
+}
