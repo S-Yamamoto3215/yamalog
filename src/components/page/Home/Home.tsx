@@ -8,7 +8,7 @@ export const Home: FC = () => {
     <div className={styles.home}>
       <section className={styles.home_hero}>
         <div className={styles.home_hero_container}>
-          <h1 className={styles.home_hero_title}>YamaLog</h1>
+          <h1 className={styles.home_hero_title}>やまログ</h1>
           <div className={styles.home_hero_image}>
             <Image
               src='/images/home/hero.png'
@@ -18,11 +18,15 @@ export const Home: FC = () => {
             />
           </div>
           <p className={styles.home_hero_lead}>
-            Web Developer Shoya Yamamoto&apos;s Portfolio.
+            webエンジニア yamamonのポートフォリオです。
           </p>
         </div>
       </section>
-      <div>なにかコンテンツが入る</div>
+      <section className={styles.section}>
+        <div className={styles.container}>
+          <h2 className={styles.section_title}>私について</h2>
+        </div>
+      </section>
     </div>
   )
 }
