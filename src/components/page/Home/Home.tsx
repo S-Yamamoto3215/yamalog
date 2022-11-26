@@ -27,6 +27,11 @@ export const Home: FC = () => {
           <h2 className={styles.section_title}>私について</h2>
         </div>
       </section>
+      <section className={styles.section}>
+        <div className={styles.container}>
+          <h2 className={styles.section_title}>ブログ</h2>
+        </div>
+      </section>
     </div>
   )
 }
