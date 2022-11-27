@@ -1,9 +1,5 @@
 @import '@/styles/variables.scss';
 
-.home {
-  height: 100vh;
-}
-
 .home_hero_container {
   display: flex;
   flex-direction: column;
@@ -55,13 +51,14 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 3rem;
 }
 
 .section_title {
   font-size: map-get($font-size, xxl);
   font-weight: 700;
   position: relative;
+  margin-bottom: 2rem;
   padding: 1rem 0;
   text-align: center;
 }
@@ -81,6 +78,49 @@
   );
 }
 
-.section_title_icon {
-  margin-right: 10px;
+.home_about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_about_profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.home_about_profile_img {
+  margin-bottom: 20px;
+}
+
+.home_about_content {
+  width: 55%;
+}
+
+.home_about_content_headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: map-get($font-size, xl);
+  color: $primary-color;
+  margin-bottom: 1rem;
+}
+
+.home_about_content_headline_text {
+  margin-left: 0.5rem;
+}
+
+.list {
+}
+
+.list_item {
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+
+.list_item_icon {
+  color: $secondary-color;
+  margin-right: 0.5rem;
+  vertical-align: middle;
 }
