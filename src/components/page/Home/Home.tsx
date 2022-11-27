@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { FC } from 'react'
 import { FaRegUser, FaCheck } from 'react-icons/fa'
 
@@ -39,6 +40,11 @@ export const Home: FC = () => {
               <p>
                 親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から
               </p>
+              <Link href={'#'}>
+                <a className={styles.btn}>
+                  <span className={styles.btn_text}>Read more</span>
+                </a>
+              </Link>
             </div>
             <div className={styles.home_about_content}>
               <h3 className={styles.home_about_content_headline}>
