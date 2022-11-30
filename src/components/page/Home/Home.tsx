@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { FC } from 'react'
 import { FaRegUser, FaCheck } from 'react-icons/fa'
 
+import { Container } from '@/components/ui/Layout'
+
 import styles from './home.module.scss'
 
 export const Home: FC = () => {
@@ -25,7 +27,7 @@ export const Home: FC = () => {
         </div>
       </section>
       <section className={styles.section}>
-        <div className={styles.container}>
+        <Container>
           <h2 className={styles.section_title}>私について</h2>
           <div className={styles.home_about}>
             <div className={styles.home_about_profile}>
@@ -70,12 +72,12 @@ export const Home: FC = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </Container>
       </section>
       <section className={styles.section}>
-        <div className={styles.container}>
+        <Container>
           <h2 className={styles.section_title}>ブログ</h2>
-        </div>
+        </Container>
       </section>
     </div>
   )
