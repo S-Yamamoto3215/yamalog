@@ -1,12 +1,19 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { FC } from 'react'
-import { FaRegUser, FaCheck } from 'react-icons/fa'
+import { FaRegUser } from 'react-icons/fa'
 
 import { HomeHero } from '@/components/ui/Hero'
 import { Container, Section } from '@/components/ui/Layout'
+import { List } from '@/components/ui/List'
 
 import styles from './home.module.scss'
+
+const profileItems = [
+  '山元 彰也（Shoya Yamamoto）',
+  '1991.7.21（31歳）',
+  'スプラトゥーン、アクアリウム、ジャニーズ',
+]
 
 export const Home: FC = () => {
   return (
@@ -41,21 +48,7 @@ export const Home: FC = () => {
                   プロフィール
                 </span>
               </h3>
-              <ul className={styles.list}>
-                <li className={styles.list_item}>
-                  <FaCheck className={styles.list_item_icon} />
-                  山元 彰也（Shoya Yamamoto）
-                </li>
-                <li className={styles.list_item}>
-                  <FaCheck className={styles.list_item_icon} />
-                  1991.7.21（31歳）
-                </li>
-                <li className={styles.list_item}>
-                  <FaCheck className={styles.list_item_icon} />
-                  スプラトゥーン、アクアリウム、ジャニーズ
-                </li>
-                <li className={styles.list_item}></li>
-              </ul>
+              <List items={profileItems} />
             </div>
           </div>
         </Container>

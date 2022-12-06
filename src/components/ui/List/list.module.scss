@@ -1,0 +1,12 @@
+@import '@/styles/variables.scss';
+
+.list_item {
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+
+.list_item_icon {
+  color: $secondary-color;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
