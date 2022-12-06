@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { FC } from 'react'
 import { FaRegUser, FaCheck } from 'react-icons/fa'
 
+import { HomeHero } from '@/components/ui/Hero'
 import { Container, Section } from '@/components/ui/Layout'
 
 import styles from './home.module.scss'
@@ -10,22 +11,7 @@ import styles from './home.module.scss'
 export const Home: FC = () => {
   return (
     <div className={styles.home}>
-      <section className={styles.home_hero}>
-        <div className={styles.home_hero_container}>
-          <h1 className={styles.home_hero_title}>やまログ</h1>
-          <div className={styles.home_hero_image}>
-            <Image
-              src='/images/home/hero.png'
-              width={300}
-              height={300}
-              alt='ノートパソコンのイラスト'
-            />
-          </div>
-          <p className={styles.home_hero_lead}>
-            webエンジニア やまもんのポートフォリオです。
-          </p>
-        </div>
-      </section>
+      <HomeHero />
       <Section>
         <Container>
           <h2 className={styles.section_title}>私について</h2>
