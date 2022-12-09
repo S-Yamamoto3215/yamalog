@@ -9,7 +9,8 @@
     "lint": "next lint --dir src",
     "lint:fix": "next lint --fix --dir src",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json}'",
-    "test": "jest"
+    "test": "jest",
+    "hygen-g-comp": "hygen generator components"
   },
   "dependencies": {
     "destyle.css": "^3.0.2",
